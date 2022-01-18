@@ -1,0 +1,31 @@
+﻿@model SistemaAsp.Models.Ejercicios
+@{
+    ViewBag.Title = "Ejercicio2";
+}
+
+
+
+<div class="row">
+    <div class="col-md-3 form-horizontal">
+        <div>
+            <label>Introduzca la cadena de Caracteres.</label>
+        </div>
+        <form action="/Home/Ejercicio2" method="post">
+            <div>
+                <label>Caracteres<input type="text" class="form-control" name="num" placeholder="Numero" value=" "></label>
+            </div>
+
+            <div>
+                <input class="btn btn-primary" type="submit" name="enviar" value="Enviar">
+            </div>
+
+
+
+        </form>
+
+        <div>
+            <label>El resultado es: @Model.resultStr</label>
+        </div>
+        <a class="btn btn-block btn-default" href="/Home/Index">Regresar</a>
+    </div>
+</div>
