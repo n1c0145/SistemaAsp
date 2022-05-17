@@ -1,1 +1,1 @@
-Exercise Sistem Asp MVC .net conex bdd SQLServer net framework ado.net + bak
+Exercise Sistem Asp MVC net framework conex bdd SQLServer ado.net + bak
